@@ -15,6 +15,7 @@ class QuestionAnswerer:
         self.question = question
         self.triedAllExtensions = False
         self.popped = ""
+        self.answer = ""
 
 
     def runRegex(self):
@@ -117,10 +118,12 @@ class QuestionAnswerer:
                     for word in self.question.nlp.tokens:
                         if (word.text == answer[(self.question.targetVariable)[1:]]['value']) or (word.lemma_ == "be" and answer[(self.question.targetVariable)[1:]]['value'] == "http://www.wikidata.org/prop/direct/P31"):          #bad hack
                             print("yes")
-                            return
+                            self.answer = "yes"
+                            return self.answer
                 print("match not found, restarting the queries, number of possible triples remainig:")
             print("no")
-            return
+            self.answer = "no"
+            return self.answer
 
         if self.question.type == "comparative_list":
             print("type is list comparative")
@@ -153,7 +156,7 @@ class QuestionAnswerer:
                     results  = requests.get(self.url, params = {'query':self.question.constructQuery(queryBody), 'format': 'json'}).json()["results"]["bindings"]
                 except:
                     print("could not get the list of objects of type " + str(instance) + " with property " + property_ID + " (in comparative listing)")
-                    return
+                    return("no answer found")
                 current = 0
                 index = 0
                 currentLabel = ""
@@ -163,10 +166,12 @@ class QuestionAnswerer:
                         current = int(results[index][("?sort")[1:]]['value'])
                         if current<=limit:
                             break
-                        print(currentLabel)
+                        print(str(currentLabel))
+                        self.answer += str(currentLabel)+ "      "
                         index += 1
                     except:
-                        print(currentLabel)
+                        print(str(currentLabel))
+                        self.answer += str(currentLabel)+ "      "
                         index += 1
                         pass
 
@@ -179,9 +184,11 @@ class QuestionAnswerer:
             self.runNLP()       ##getting result for the second
 
             if data1['results']['bindings'][0][(self.question.targetVariable)[1:]]['value'] > self.data['results']['bindings'][0][(self.question.targetVariable)[1:]]['value']:
-                print(firstWord)
+                print(str(firstWord))
+                self.answer += str(firstWord)
             else:
-                print(self.popped[0])
+                print(str(self.popped[0]))
+                self.answer += (self.popped[0])
 
         if self.question.type == "count":
             if self.runNLP():
@@ -193,7 +200,8 @@ class QuestionAnswerer:
                         print('no answer found')
                     else:
                         c += 1
-                print(c)
+                print(str(c))
+                self.answer += str(c)
             pass
 
         if self.question.type == 'superlative':
@@ -205,9 +213,10 @@ class QuestionAnswerer:
 
                 for answer in self.data['results']['bindings']:
                     if answer == '':
-                        print('no answer found')
+                        print("no answer found")
                     else:
-                        print(answer[(self.question.targetVariable)[1:]]['value'])
+                        print(str(answer[(self.question.targetVariable)[1:]]['value']))
+                        self.answer += str(answer[(self.question.targetVariable)[1:]]['value'])+ "      "
                     count += 1
                     if count>numberOfAnswers:
                         break
@@ -225,6 +234,8 @@ class QuestionAnswerer:
 
                 for answer in self.data['results']['bindings']:
                     if answer == '':
-                        print('no answer found')
+                        print("no answer found")
                     else:
-                        print(answer[(self.question.targetVariable)[1:]]['value'])
+                        print(str(answer[(self.question.targetVariable)[1:]]['value']))
+                        self.answer +=str(answer[(self.question.targetVariable)[1:]]['value']) + "      "
+        return self.answer

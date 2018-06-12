@@ -91,9 +91,22 @@ spec1 = {
 }
 ###the specs are passed to the outer class as an argument, several versions can be defined here separately
 ##########################################################################################################################
-print('Exit by typing Bye')
-question = ''
-while question != 'Bye':
-    question = input("Enter a question:")
-    if question != 'Bye':                           ##no do while in python :(
-        QuestionAnswerer(QuestionParser(question, Specification(spec1))).getAnswer()
+import sys
+import io
+questions = open(".\\test_questions.txt", "r")
+answers = io.open(".\\answers.txt", "w", encoding='utf-8')
+id = 1
+content = questions.readlines()
+for sentence in content:
+    if len(sentence)>3:
+        sentence = sentence[3:]
+        print("question number " + str(id) + " is \n    ")
+        print(sentence)
+        ans = str(QuestionAnswerer(QuestionParser(sentence, Specification(spec1))).getAnswer())
+        print("ANSWER IS " + ans)
+        try:
+            answers.write((str(id) + "   " + ans + "\n"))
+        except:
+            answers.write((str(id) + "     an error occurred\n"))
+        id+=1
+answers.close()
