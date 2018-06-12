@@ -11,6 +11,9 @@ the program from a pre-written file called "test_questions.txt", which
 contains all the test questions. You can run from file by pressing "1",
 and press any other key to run from commandline.
 
+3 characters are removed as the test questions on nestor have the format 
+space-ID-tab-question, although the description in the slides does not mention space.
+
 It is necessary to install some modules. This can be done with pip3, or
 inside the PyCharm IDE. These modules are:
 requests, sys, spacy, nltk, termcolor and word2number.

@@ -93,6 +93,7 @@ spec1 = {
 ##########################################################################################################################
 import sys
 import io
+from tkinter.filedialog import askopenfilename
 
 
 print("We assume you want to read questions from sysin. \n If you want to read questions from file, press 1\n If you want to read questions from std.in, press 2 (Exit by typing bye ) \n"
@@ -101,13 +102,27 @@ x = input()
 
 ### NOTE: WE ASSUME THE FIRST THREE CHARS NEED TO BE NEGLECTED
 answers = io.open(".\\answers.txt", "w", encoding='utf-8')
+
+def removeGarbage(text):
+    if text == 'Bye':
+        exit()
+    text = list(text)
+    copy = list(text)
+    for char in range(0,len(copy)):
+        if not copy[char].isalpha():
+            text.pop(char)
+        else:
+            return str(text)
+    return False
+
 if x == "1":
-    questions =open("test_questions.txt", "r")
+    filename = askopenfilename()
+    questions =open(filename, "r")
     id = 1
     content = questions.readlines()
     for sentence in content:
-        if len(sentence)>3:
-            sentence = sentence[3:]
+        if removeGarbage(sentence):
+            #sentence = sentence[3:]
             print("question number " + str(id) + " is \n    ")
             print(sentence)
             ans = str(QuestionAnswerer(QuestionParser((sentence), Specification(spec1))).getAnswer())
@@ -125,8 +140,8 @@ else:
     sentence = ''
     while sentence != 'Bye':
         sentence = input("Enter a question:")
-        if len(sentence) > 3:
-            sentence = sentence[3:]
+        if removeGarbage(sentence):
+            #sentence = sentence[3:]
             print("question number " + str(id) + " is \n    ")
             print(sentence)
             ans = str(QuestionAnswerer(QuestionParser((sentence), Specification(spec1))).getAnswer())
@@ -138,3 +153,4 @@ else:
             id += 1
     answers.close()
     file = open('answers.txt', 'r')
+
