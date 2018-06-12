@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09657afa-2e32-4fa5-941c-f854c85cf6a6" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuestionAnswerer.py" afterPath="$PROJECT_DIR$/QuestionAnswerer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+=======
+      <change beforePath="$PROJECT_DIR$/QuestionAnswerer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionAnswerer.py" afterDir="false" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,26 +17,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="503">
               <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
               <folding>
                 <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
               </folding>
+=======
+            <state relative-caret-position="-272">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionAnswerer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuestionAnswerer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="423">
               <caret line="228" column="29" lean-forward="true" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+=======
+            <state relative-caret-position="303">
+              <caret line="196" column="36" lean-forward="true" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -43,12 +56,15 @@
       <file leaf-file-name="test_nounify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_nounify.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1120">
               <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+=======
+            <state relative-caret-position="840">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <marker date="1528822601513" expanded="true" signature="134:1675" ph="..." />
-                <marker date="1528822601513" expanded="true" signature="630:664" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,9 +73,8 @@
       <file leaf-file-name="IDfinder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDfinder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,8 +82,13 @@
       <file leaf-file-name="QuestionParser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuestionParser.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-694">
               <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+=======
+            <state relative-caret-position="140">
+              <caret line="146" column="6" lean-forward="true" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
               <folding>
                 <element signature="e#3#24#0" expanded="true" />
               </folding>
@@ -79,9 +99,14 @@
       <file leaf-file-name="NLP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NLP.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="451">
               <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
+=======
+            <state relative-caret-position="286">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
             </state>
           </provider>
         </entry>
@@ -89,6 +114,7 @@
       <file leaf-file-name="Triples.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Triples.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="440">
               <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
               <folding>
@@ -106,6 +132,10 @@
                 <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
                 <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
               </folding>
+=======
+            <state relative-caret-position="330">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
             </state>
           </provider>
         </entry>
@@ -121,8 +151,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>self.answer</find>
       <find>return</find>
+=======
+      <find>possible_wor</find>
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,54 +171,53 @@
         <option value="$PROJECT_DIR$/nounify2.py" />
         <option value="$PROJECT_DIR$/test_nounify.py" />
         <option value="$PROJECT_DIR$/NLP.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/QuestionParser.py" />
         <option value="$PROJECT_DIR$/QuestionAnswerer.py" />
+=======
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/QuestionParser.py" />
+        <option value="$PROJECT_DIR$/QuestionAnswerer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="228" />
+    <option name="y" value="63" />
+    <option name="width" value="1221" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangTech_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangTech_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="LangTech_v2_bal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LangTech_v2_bal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+=======
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +232,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-Tech" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -210,14 +244,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="test_nounify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nounify2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-Tech" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -228,111 +262,59 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_nounify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="nounify2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nounify2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="test_nounify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-Tech" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_nounify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Language-Tech" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Language-Tech" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_nounify" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nounify2" />
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test_nounify" />
+      <item itemvalue="Python.nounify2" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_nounify" />
-        <item index="2" class="java.lang.String" itemvalue="Python.nounify2" />
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_nounify" />
+        <item itemvalue="Python.nounify2" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -345,6 +327,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -366,40 +349,69 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="228" y="63" width="1221" height="704" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16298117" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" x="84" y="45" width="813" height="682" id="Run" order="6" type="WINDOWED" visible="true" weight="0.26079592" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="0" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26079592" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="961" y="38" width="958" height="991" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" anchor="bottom" x="961" y="38" width="958" height="991" id="Run" order="6" type="WINDOWED" visible="true" weight="0.26079592" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10208333" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="right" id="Data View" order="0" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Triples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5040">
-          <caret line="252" column="37" lean-forward="false" selection-start-line="252" selection-start-column="37" selection-end-line="252" selection-end-column="37" />
+          <caret line="252" column="37" selection-start-line="252" selection-start-column="37" selection-end-line="252" selection-end-column="37" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -410,16 +422,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+<<<<<<< HEAD
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
-          <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -429,11 +444,9 @@
     <entry file="file://$PROJECT_DIR$/test_nounify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
-          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1528822601513" expanded="true" signature="134:1675" ph="..." />
-            <marker date="1528822601513" expanded="true" signature="630:664" ph="..." />
           </folding>
         </state>
       </provider>
@@ -441,14 +454,14 @@
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
+<<<<<<< HEAD
           <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -465,13 +478,16 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4840">
-          <caret line="252" column="37" lean-forward="false" selection-start-line="252" selection-start-column="37" selection-end-line="252" selection-end-column="37" />
+          <caret line="252" column="37" selection-start-line="252" selection-start-column="37" selection-end-line="252" selection-end-column="37" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -481,17 +497,21 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
+<<<<<<< HEAD
           <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
-          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -501,11 +521,9 @@
     <entry file="file://$PROJECT_DIR$/test_nounify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1528822601513" expanded="true" signature="134:1675" ph="..." />
-            <marker date="1528822601513" expanded="true" signature="630:664" ph="..." />
           </folding>
         </state>
       </provider>
@@ -513,14 +531,14 @@
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
+<<<<<<< HEAD
           <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -537,6 +555,9 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
@@ -553,17 +574,21 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
+<<<<<<< HEAD
           <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
-          <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -573,11 +598,9 @@
     <entry file="file://$PROJECT_DIR$/test_nounify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1528822601513" expanded="true" signature="134:1675" ph="..." />
-            <marker date="1528822601513" expanded="true" signature="630:664" ph="..." />
           </folding>
         </state>
       </provider>
@@ -585,14 +608,14 @@
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
+<<<<<<< HEAD
           <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -609,13 +632,16 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3220">
-          <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+          <caret line="161" column="26" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -625,25 +651,28 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
+<<<<<<< HEAD
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4440">
-          <caret line="222" column="40" lean-forward="false" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
+          <caret line="222" column="40" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -653,6 +682,7 @@
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
+<<<<<<< HEAD
           <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -669,6 +699,9 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
@@ -685,10 +718,14 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
+<<<<<<< HEAD
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
@@ -696,14 +733,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4780">
-          <caret line="249" column="82" lean-forward="false" selection-start-line="249" selection-start-column="82" selection-end-line="249" selection-end-column="82" />
+          <caret line="249" column="82" selection-start-line="249" selection-start-column="82" selection-end-line="249" selection-end-column="82" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -713,6 +749,7 @@
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1180">
+<<<<<<< HEAD
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -729,6 +766,9 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
@@ -745,17 +785,21 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
+<<<<<<< HEAD
           <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2920">
-          <caret line="149" column="32" lean-forward="false" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -766,13 +810,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1220">
+<<<<<<< HEAD
           <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="40" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -789,20 +833,23 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="40" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Specs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
-          <caret line="207" column="54" lean-forward="false" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+          <caret line="207" column="54" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -812,25 +859,24 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
+<<<<<<< HEAD
           <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
           </folding>
+=======
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
           </folding>
@@ -840,6 +886,7 @@
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1220">
+<<<<<<< HEAD
           <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="40" />
           <folding>
             <marker date="1528826861148" expanded="true" signature="1069:4313" ph="..." />
@@ -856,20 +903,23 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="40" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Specs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2980">
-          <caret line="149" column="32" lean-forward="false" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -879,31 +929,35 @@
     <entry file="file://$PROJECT_DIR$/Specs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nounify2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_nounify.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1120">
           <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+=======
+        <state relative-caret-position="840">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1528822601513" expanded="true" signature="134:1675" ph="..." />
-            <marker date="1528822601513" expanded="true" signature="630:664" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Triples.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="440">
           <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
           <folding>
@@ -921,11 +975,16 @@
             <marker date="1528826861148" expanded="true" signature="4925:5014" ph="..." />
             <marker date="1528826861148" expanded="true" signature="5040:5074" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="330">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDfinder.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="120">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
@@ -937,19 +996,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="90">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NLP.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="451">
           <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
+=======
+        <state relative-caret-position="286">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuestionParser.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-694">
           <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
           <folding>
@@ -964,16 +1033,36 @@
           <caret line="228" column="29" lean-forward="true" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+=======
+        <state relative-caret-position="-272">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuestionParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="146" column="6" lean-forward="true" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+          <folding>
+            <element signature="e#3#24#0" expanded="true" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="503">
           <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
           <folding>
             <marker date="1528831934912" expanded="true" signature="4526:4531" ph="..." />
+=======
+        <state relative-caret-position="303">
+          <caret line="196" column="36" lean-forward="true" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> dbb6c888bcf875d1d2b0d19bafdb1f50a431f10d
           </folding>
         </state>
       </provider>

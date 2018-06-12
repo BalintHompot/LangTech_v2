@@ -14,7 +14,7 @@ import sys
 
 ##############################################  define specification for the task here ###################################
 spec1 = {
-    'ignored_words':["is", "true", "false", "yes", "no", "list"],
+    'ignored_words':["is", "true", "false", "yes", "no", "list", "have"],
     'question_words':{'What': ["instance of", "subclass of"],
                       'Is': ["instance of", "subclass of"],
                       'Who':["instance of"],
@@ -32,7 +32,7 @@ spec1 = {
                 ##regex stopword removal (kept for potential use later): (?:the|a|an)?\s*
                 },
     },
-    'deps':{"Object": ["pobj", "poss", "nsubj", "conj", "dobj", "npadvmod", "appos","attr"],                 ##we store here the possible deps (returned by spacy) for each element in a triple
+    'deps':{"Object": ["pobj", "poss", "nsubj", "conj", "dobj", "npadvmod", "appos","attr", "nsubjpass"],                 ##we store here the possible deps (returned by spacy) for each element in a triple
             "Property" : ["attr", "nsubj", "acomp", "dobj","pcomp","pobj"],
             "Result": ["attr", "acomp", "advcl"]
             },
@@ -44,7 +44,7 @@ spec1 = {
                        "somewhereInText": ['true', 'false', 'yes', 'no']},
     'count_list':{"singles":["count","number"],          #single words
                 "doubles":["how many", "how much"]},         #two word expressions
-    'tags_of_interest': ["JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "RB", "RBS", "RBR", "VB", "VBD", "VBG", "VBP", "VBZ"],
+    'tags_of_interest': ["JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "RB", "RBS", "RBR", "VB", "VBD", "VBG", "VBP", "VBZ", "VBN"],
     'print':True,
     'common_IDs':{"highest": "P2044",
                   "high":"P2044",
@@ -72,7 +72,7 @@ spec1 = {
                   "world":"Q2",
 
                   "is":"P31",
-		  "eu":"Q458",
+		          "eu":"Q458",
                   "us":"Q30",
                   "uk":"Q145",
                   "un":"Q1065",

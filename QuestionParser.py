@@ -145,8 +145,12 @@ class QuestionParser:
                 a = (self.nlp.returnDep(dep))
                 if a != None:
                     possible_words[key]+= a
-            #print ("the " + key + "s of this sentence are ")
-            #print(possible_words[key])
+            list = []
+            for word in possible_words[key]:
+                parts = nlp(word)
+                for x in parts:
+                    list.append(x.text)
+            possible_words[key] += list
         return possible_words
 
     def extended_parse_spacy(self):                 ### the words with deps in the extended list are not added to the possible words, just their nounified versions

@@ -153,7 +153,7 @@ class QuestionAnswerer:
                 self.question.sort = 1
                 self.question.variable += " ?sort "
                 try:
-                    results  = requests.get(self.url, params = {'query':self.question.constructQuery(queryBody), 'format': 'json'}).json()["results"]["bindings"]
+                    results = requests.get(self.url, params = {'query':self.question.constructQuery(queryBody), 'format': 'json'}).json()["results"]["bindings"]
                 except:
                     print("could not get the list of objects of type " + str(instance) + " with property " + property_ID + " (in comparative listing)")
                     return("no answer found")
@@ -182,7 +182,6 @@ class QuestionAnswerer:
             data1 = self.data
             firstWord = self.popped[0]
             self.runNLP()       ##getting result for the second
-
             if data1['results']['bindings'][0][(self.question.targetVariable)[1:]]['value'] > self.data['results']['bindings'][0][(self.question.targetVariable)[1:]]['value']:
                 print(str(firstWord))
                 self.answer += str(firstWord)
@@ -194,13 +193,21 @@ class QuestionAnswerer:
             if self.runNLP():
                 c = 0
             #########################################
-
                 for answer in self.data['results']['bindings']:
-                    if answer == '':
-                        print('no answer found')
-                    else:
-                        c += 1
-                print(str(c))
+
+                    print(answer)
+                    try:
+                        answer['datatype'] == "http://www.w3.org/2001/XMLSchema#decimal"
+                        if answer == '':
+                             print('no answer found')
+                        else:
+                             print(answer[(self.question.targetVariable)[1:]]['value'])
+                    except KeyError:
+                        if answer == '':
+                             print('no answer found')
+                        else:
+                             c += 1
+                print(c)
                 self.answer += str(c)
             pass
 
