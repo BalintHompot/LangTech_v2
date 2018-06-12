@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09657afa-2e32-4fa5-941c-f854c85cf6a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Language-Tech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Language-Tech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionAnswerer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionAnswerer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +25,8 @@
       <file leaf-file-name="QuestionAnswerer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="188" column="63" lean-forward="true" selection-start-line="188" selection-start-column="63" selection-end-line="188" selection-end-column="63" />
+            <state relative-caret-position="303">
+              <caret line="196" column="36" lean-forward="true" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -123,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-91" />
-    <option name="y" value="164" />
+    <option name="x" value="228" />
+    <option name="y" value="63" />
     <option name="width" value="1221" />
     <option name="height" value="704" />
   </component>
@@ -259,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-91" y="164" width="1221" height="704" extended-state="0" />
+    <frame x="228" y="63" width="1221" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16298117" />
@@ -714,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionAnswerer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="188" column="63" lean-forward="true" selection-start-line="188" selection-start-column="63" selection-end-line="188" selection-end-column="63" />
+        <state relative-caret-position="303">
+          <caret line="196" column="36" lean-forward="true" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

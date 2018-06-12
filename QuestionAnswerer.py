@@ -188,12 +188,13 @@ class QuestionAnswerer:
             #########################################
                 for answer in self.data['results']['bindings']:
                     print(answer)
-                    if answer['datatype'] is not type(None): # what we want: 'http://www.w3.org/2001/XMLSchema#decimal':
+                    try:
+                        answer['datatype'] == "http://www.w3.org/2001/XMLSchema#decimal"
                         if answer == '':
                              print('no answer found')
                         else:
                              print(answer[(self.question.targetVariable)[1:]]['value'])
-                    else:
+                    except KeyError:
                         if answer == '':
                              print('no answer found')
                         else:
