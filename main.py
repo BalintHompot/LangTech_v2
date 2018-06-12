@@ -1,5 +1,4 @@
-## Issues: Inconsistent use of tabs and spaces in indentation 184 QuestionParser
-
+#Group Members: Balint Hompot, Ludi Van Leeuwen, Mario Holubar, Prajakta Shouche
 
 from QuestionParser import *
 from QuestionAnswerer import *
@@ -140,8 +139,10 @@ else:
     sentence = ''
     while sentence != 'Bye':
         sentence = input("Enter a question:")
+
         if removeGarbage(sentence):
             #sentence = sentence[3:]
+
             print("question number " + str(id) + " is \n    ")
             print(sentence)
             ans = str(QuestionAnswerer(QuestionParser((sentence), Specification(spec1))).getAnswer())
