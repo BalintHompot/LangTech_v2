@@ -94,6 +94,20 @@ class QuestionAnswerer:
                     return True
         return False
 
+    def partOf(self, word, answer):
+        answernlp= nlp(answer[(self.question.targetVariable)[1:]]['value'])
+        print(answernlp)
+        for w in answernlp:
+            print(w.dep_)
+            if(w.dep_ == "pobj"):
+                rootAnswer = w.text
+            else:
+                rootAnswer = "0"
+        if rootAnswer == word.text:
+            return True
+        else:
+            return False
+
     def getAnswer(self):
         print("question is ")
         print(self.question.question)
@@ -116,7 +130,7 @@ class QuestionAnswerer:
                 self.runNLP()
                 for answer in self.data["results"]["bindings"]:
                     for word in self.question.nlp.tokens:
-                        if (word.text == answer[(self.question.targetVariable)[1:]]['value']) or (word.lemma_ == "be" and answer[(self.question.targetVariable)[1:]]['value'] == "http://www.wikidata.org/prop/direct/P31"):          #bad hack
+                        if (word.text == answer[(self.question.targetVariable)[1:]]['value']) or self.partOf(word, answer):          #bad hack
                             print("yes")
                             self.answer = "yes"
                             return self.answer
@@ -194,15 +208,16 @@ class QuestionAnswerer:
                 c = 0
             #########################################
                 for answer in self.data['results']['bindings']:
-
                     print(answer)
                     try:
-                        answer['datatype'] == "http://www.w3.org/2001/XMLSchema#decimal"
-                        if answer == '':
-                             print('no answer found')
+                        if(answer['datatype'] == "http://www.w3.org/2001/XMLSchema#decimal"):
+                            if answer == '':
+                                 print('no answer found')
+                            else:
+                                print(answer[(self.question.targetVariable)[1:]]['value'])
                         else:
-                             print(answer[(self.question.targetVariable)[1:]]['value'])
-                    except KeyError:
+                            x = 1
+                    except KeyError or x == 1:
                         if answer == '':
                              print('no answer found')
                         else:
