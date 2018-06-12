@@ -19,11 +19,11 @@ class NLP:
         ret = []
         ##print(type(self.tokens))
         for w in range(0,len(self.tokens)):
-            print("word is " + str(self.tokens[w]) + " dep is " + str(self.tokens[w].dep_) + " tag is " + str(self.tokens[w].tag_) + "ent" + str(self.tokens[w].pos_))
-            print(w)
+            #print("word is " + str(self.tokens[w].text) + " dep is " + str(self.tokens[w].dep_) + " tag is " + str(self.tokens[w].tag_) + "ent" + str(self.tokens[w].pos_))
+            #print(w)
             if self.tokens[w].dep_ == dep and not self.tokens[w].text in list(self.specs.question_words.keys()) and not self.tokens[w].text.lower() in self.specs.ignored_words and str(self.tokens[w].tag_) in self.specs.tags_of_interest:
                 instance = []
-                if(self.tokens[w].pos_ == "PROPN"):
+                if(self.tokens[w].text[0].isupper()):
                     instance.append(self.tokens[w].text)  #keep capitals for entities
                 else:
                     instance.append(self.tokens[w].lemma_) #text to lemma
@@ -32,11 +32,13 @@ class NLP:
                     if self.tokens[i].dep_ == 'amod':
                         instance.append(self.tokens[i].text)  # add text, since lemma of amod is not a property
                     else:
-                        instance.append(self.tokens[i].lemma_) #text to lemma
+                        if (self.tokens[i].text[0].isupper()):      ##again, keep uppercases
+                            instance.append(self.tokens[i].text)
+                        else:
+                            instance.append(self.tokens[i].lemma_) #text to lemma
                     #print("adding " + str(self.tokens[i].text))
                     i = i-1
                 ret.append(" ".join(reversed(instance)))
-		
         if ret != []:
             print(ret)
             return ret
