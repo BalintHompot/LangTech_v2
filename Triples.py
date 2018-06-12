@@ -75,9 +75,6 @@ class Triple:
         element.setTriple()
 
 
-
-
-
     def constructSuperlativeSparql(self, sort):
 
 
