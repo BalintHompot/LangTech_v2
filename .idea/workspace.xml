@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09657afa-2e32-4fa5-941c-f854c85cf6a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLP.py" afterPath="$PROJECT_DIR$/NLP.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuestionParser.py" afterPath="$PROJECT_DIR$/QuestionParser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +14,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="781">
+              <caret line="83" column="59" lean-forward="false" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
               <folding>
-                <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+                <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
               </folding>
             </state>
           </provider>
@@ -63,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionParser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionParser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuestionParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="1084">
               <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
               <folding>
                 <element signature="e#3#24#0" expanded="true" />
@@ -119,17 +118,16 @@
         <option value="$PROJECT_DIR$/QuestionAnswerer.py" />
         <option value="$PROJECT_DIR$/nounify2.py" />
         <option value="$PROJECT_DIR$/test_nounify.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/NLP.py" />
         <option value="$PROJECT_DIR$/QuestionParser.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -327,13 +325,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2045929" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.26079592" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="0" y="29" width="1920" height="1001" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26079592" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1" y="38" width="958" height="991" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -404,7 +401,7 @@
         <state relative-caret-position="560">
           <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -465,7 +462,7 @@
         <state relative-caret-position="1320">
           <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -526,7 +523,7 @@
         <state relative-caret-position="920">
           <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -587,7 +584,7 @@
         <state relative-caret-position="520">
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -636,7 +633,7 @@
         <state relative-caret-position="520">
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -685,7 +682,7 @@
         <state relative-caret-position="1060">
           <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -741,7 +738,7 @@
         <state relative-caret-position="1060">
           <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
@@ -799,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IDfinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nounify2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -847,16 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <marker date="1528822601510" expanded="true" signature="3792:3797" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -867,10 +846,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuestionParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1084">
           <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
           <folding>
             <element signature="e#3#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDfinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="83" column="59" lean-forward="false" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
+          <folding>
+            <marker date="1528825650226" expanded="true" signature="4350:4355" ph="..." />
           </folding>
         </state>
       </provider>
