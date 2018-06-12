@@ -1,2 +1,13 @@
-   Which countries does the Rhine go through?
-   How many countries does the Rhine cross?
+ 1	How big is the surface of the sahara desert? 
+ 2	How many countries border lake Victoria? 
+ 3	In what country is the Arc de Triomphe located? 
+ 4	Is Australia a continent? 
+ 5	List all administrative territorial entities in the Netherlands? 
+ 6	List the official languages of New Zealand. 
+ 7	Name the motto of Canada 
+ 8	On which continent is the Onyx River located? 
+ 9	State the height of the highest peak in Jamaica. 
+ 10	Through what countries does the Rhine flow? 
+ 11	What are the official languages in Belgium? 
+ 12	What countries are part of the Benelux
+ 

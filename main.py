@@ -56,6 +56,7 @@ spec1 = {
                   "member":"P150",
                   "county":"P150",
                   "state":"P150",
+                  "official language":"P37",
                   "language":"P37",            #language -> official language
                   "bigger":"P2046",
                   "big":"P2046",
@@ -102,17 +103,6 @@ x = input()
 ### NOTE: WE ASSUME THE FIRST THREE CHARS NEED TO BE NEGLECTED
 answers = io.open(".\\answers.txt", "w", encoding='utf-8')
 
-def removeGarbage(text):
-    if text == 'Bye':
-        exit()
-    text = list(text)
-    copy = list(text)
-    for char in range(0,len(copy)):
-        if not copy[char].isalpha():
-            text.pop(char)
-        else:
-            return str(text)
-    return False
 
 if x == "1":
     filename = askopenfilename()
@@ -120,7 +110,8 @@ if x == "1":
     id = 1
     content = questions.readlines()
     for sentence in content:
-        if removeGarbage(sentence):
+        if len(sentence)>3:
+            sentence=sentence[3:]
             #sentence = sentence[3:]
             print("question number " + str(id) + " is \n    ")
             print(sentence)
@@ -140,9 +131,8 @@ else:
     while sentence != 'Bye':
         sentence = input("Enter a question:")
 
-        if removeGarbage(sentence):
-            #sentence = sentence[3:]
-
+        if len(sentence)>3:
+            sentence=sentence[3:]
             print("question number " + str(id) + " is \n    ")
             print(sentence)
             ans = str(QuestionAnswerer(QuestionParser((sentence), Specification(spec1))).getAnswer())
